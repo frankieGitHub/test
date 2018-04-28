@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/coolpad/AI/AI_framwork/NCNN/CoolFaceID/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/coolpad/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/coolpad/AI/AI_framwork/NCNN/CoolFaceID/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/coolpad/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/coolpad/AI/AI_framwork/NCNN/CoolFaceID/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/coolpad/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/coolpad/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/coolpad/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/coolpad/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/coolpad/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/coolpad/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/coolpad/AI/AI_framwork/NCNN/CoolFaceID/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/coolpad/AI/AI_framwork/NCNN/CoolFaceID/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/home/coolpad/AI/AI_framwork/NCNN/CoolFaceID/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "262973830410354194"
+		}
+	},
+	"toolchains" : 
+	{
+		"262973830410354194" : 
+		{
+			"cCompilerExecutable" : "/home/coolpad/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/coolpad/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
